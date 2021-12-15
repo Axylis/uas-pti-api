@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# cache
+.angular
+
 # compiled output
 /dist
 /tmp
@@ -8,10 +11,11 @@
 /bazel-out
 
 # dependencies
-/node_modules
+package-lock.json
 
 # profiling files
 chrome-profiler-events*.json
+speed-measure-plugin*.json
 
 # IDEs and editors
 /.idea
@@ -31,7 +35,6 @@ chrome-profiler-events*.json
 .history/*
 
 # misc
-/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage
@@ -44,3 +47,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+src/assets
