@@ -12,6 +12,7 @@
 
 # dependencies
 package-lock.json
+/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -49,3 +50,4 @@ testem.log
 Thumbs.db
 
 src/assets
+node_modules
